@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pivala Renovators Aid Co.</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="bg-white text-gray-800">
+  <!-- Header -->
+  <header class="bg-green-600 text-white p-6 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Pivala Renovators Aid Co.</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#services" class="hover:underline">Services</a></li>
+          <li><a href="#about" class="hover:underline">About</a></li>
+          <li><a href="#contact" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-cover bg-center h-96 flex items-center justify-center text-white text-center" style="background-image: url('https://images.unsplash.com/photo-1581091870622-3c059fdf89fa');">
+    <div class="bg-black bg-opacity-50 p-8 rounded">
+      <h2 class="text-4xl font-bold mb-4">Reliable Maintenance, Repair & Renovation Services</h2>
+      <p class="text-lg">Professional, timely, and trustworthy solutions for your property.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-8">Our Services</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 shadow-md rounded">
+          <h4 class="text-xl font-semibold mb-2">Building Maintenance</h4>
+          <p>Scheduled and emergency maintenance for residential and commercial properties.</p>
+        </div>
+        <div class="bg-white p-6 shadow-md rounded">
+          <h4 class="text-xl font-semibold mb-2">Repair Services</h4>
+          <p>We fix plumbing, electrical systems, roofing, and structural damages efficiently.</p>
+        </div>
+        <div class="bg-white p-6 shadow-md rounded">
+          <h4 class="text-xl font-semibold mb-2">Renovation Projects</h4>
+          <p>Modernize and improve your spaces with expert planning and execution.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-12">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-4">About Us</h3>
+      <p class="max-w-2xl mx-auto">Pivala Renovators Aid Co. is a Tanzanian company committed to quality in building maintenance, professional repairs, and renovations. Our experienced team ensures durable, clean, and efficient service delivery on every project.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-12 bg-green-50">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-6">Get in Touch</h3>
+      <form class="max-w-xl mx-auto bg-white p-6 rounded shadow-md">
+        <input type="text" placeholder="Your Name" class="w-full mb-4 p-2 border rounded" />
+        <input type="email" placeholder="Your Email" class="w-full mb-4 p-2 border rounded" />
+        <textarea placeholder="Your Message" class="w-full mb-4 p-2 border rounded" rows="4"></textarea>
+        <button type="submit" class="bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-600 text-white text-center p-4">
+    <p>&copy; 2025 Pivala Renovators Aid Co. All rights reserved.</p>
+  </footer>
+</body>
+</html>
